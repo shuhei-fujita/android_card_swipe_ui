@@ -11,19 +11,25 @@ import com.kidach1.tinderswipe.view.SimpleCardStackAdapter
 
 class MainActivity : AppCompatActivity() {
 
-    private var cardList: ArrayList<CardModel>? = null
+    private var cardList: ArrayList<com.syuheifujita.android_swipe_card.CardModel>? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        cardList = CardConstant.
+        cardList = CardConstant.getCard()
 
         val cardModel = CardModel(
             "TinderSwipe",
             "Description for card.",
             "http://example.com/example.png"
         ) // title, desc, imgUrl
+
+//        val cardModel = com.syuheifujita.android_swipe_card.CardModel(
+//            "TinderSwipe",
+//            "Description for card.",
+//            "http://example.com/example.png"
+//        ) // title, desc, imgUrl
 
         val cardAdapter = SimpleCardStackAdapter(this)
         cardAdapter.add(cardModel)

@@ -6,7 +6,6 @@ object CardConstant {
         val cardList = ArrayList<com.syuheifujita.android_swipe_card.CardModel>()
 
         val card1 = CardModel(
-            1,
             "",
             "",
             ""
@@ -15,7 +14,6 @@ object CardConstant {
         cardList.add(card1)
 
         val card2 = CardModel(
-            2,
             "",
             "",
             ""
@@ -24,7 +22,6 @@ object CardConstant {
         cardList.add(card2)
 
         val card3 = CardModel(
-            3,
             "",
             "",
             ""
