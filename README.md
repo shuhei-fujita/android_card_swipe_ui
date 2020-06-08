@@ -1,7 +1,7 @@
 # android_swipe_card
 
 # refarence
-https://github.com/androidguy30/SwipeCardImplementation
+https://qiita.com/kidach1/items/a0b3f9acad1dd80c0293
 
 # library
-https://github.com/yuyakaido/CardStackView
+https://github.com/kidach1/AndroidTinderSwipe
