@@ -9,11 +9,15 @@ import com.kidach1.tinderswipe.view.CardContainer
 import com.kidach1.tinderswipe.view.CardContainer.OnLikeListener
 import com.kidach1.tinderswipe.view.SimpleCardStackAdapter
 
-
 class MainActivity : AppCompatActivity() {
+
+    private var cardList: ArrayList<CardModel>? = null
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        cardList = CardConstant.
 
         val cardModel = CardModel(
             "TinderSwipe",
